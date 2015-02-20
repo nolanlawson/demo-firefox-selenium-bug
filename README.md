@@ -16,6 +16,8 @@ CLIENT=selenium:firefox npm test
 
 Then it will work just fine and you will see that the tests all passed.
 
+Generic instructions follow.
+
 Testing the library
 ----
 

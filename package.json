@@ -18,7 +18,7 @@
     "min": "uglifyjs dist/demo.js -mc > dist/demo.min.js",
     "dev": "browserify test/test.js > test/test-bundle.js && npm run dev-server",
     "dev-server": "./bin/dev-server.js"
-  ,
+  },
   "dependencies": {},
   "devDependencies": {
     "bluebird": "^1.0.7",

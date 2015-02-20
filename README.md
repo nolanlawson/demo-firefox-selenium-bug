@@ -1,6 +1,21 @@
 Demo Firefox Selenium bug
 =====
 
+**To repro the bug, simply clone this code and run:**
+
+```
+npm install
+CLIENT=selenium:firefox npm test
+```
+
+You should see an empty Firefox window and the tests will hang. Whereas if you run:
+
+```
+CLIENT=selenium:firefox npm test
+```
+
+Then it will work just fine and you will see that the tests all passed.
+
 Testing the library
 ----
 
